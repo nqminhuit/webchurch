@@ -27,7 +27,7 @@
   --ifm-color-primary-lightest: #4fddbf;
 }
 
-header {
+header.hero.hero--primary {
   background: no-repeat center/100% url('/img/christmas-header.jpg');
 }
 

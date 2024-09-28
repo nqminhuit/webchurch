@@ -1,0 +1,22 @@
+name: Deploy content to github pages
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4.0.4
+
+    - name: Build
+      run: npm install
+
+    - name: Deploy
+      run: GIT_USER=nqminhuit GIT_PASS=${{secrets.PUBLIC_REPO_TOKEN}} npm run deploy

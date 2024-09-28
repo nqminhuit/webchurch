@@ -63,11 +63,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Ban Truyền Thông Giáo xứ Hy Vọng.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        copyright: `Copyright © ${new Date().getFullYear()} Ban Truyền Thông Giáo Xứ Hy Vọng.`,
       },
     }),
 };

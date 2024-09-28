@@ -5,6 +5,7 @@ import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './index.module.css';
+import Announcement from '@site/src/components/Announcement';
 
 function HomepageHeader() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <Gospel />
+        <Announcement />
         <ChurchNews />
       </main>
     </Layout>

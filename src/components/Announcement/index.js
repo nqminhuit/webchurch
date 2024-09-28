@@ -37,7 +37,7 @@ function AnnTemplate({Pic, date, title, description}) {
 
 export default function Announcement() {
   return(
-    <section className="features">
+    <section className={"features " + styles.backgrounded}>
       <div className="container">
         <Heading as="h1">Thông báo</Heading>
         <div className="row">

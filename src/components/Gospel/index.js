@@ -52,7 +52,7 @@ function GospelTemplate({Svg, title, description}) {
 
 export default function Gospel() {
   return (
-    <section className="features">
+    <section className={"features " + styles.backgrounded}>
       <div className="container">
         <div className="row">
           {GospelOfDay.map((props, idx) => (<GospelTemplate key={idx} {...props} />))}

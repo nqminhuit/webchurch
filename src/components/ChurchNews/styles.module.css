@@ -3,3 +3,7 @@
   margin: 0px 0px 20px 0px;
   height: 150px;
 }
+
+.backgrounded {
+  background: no-repeat center/100% url('/img/background_2.svg');
+}

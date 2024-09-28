@@ -37,7 +37,7 @@ function NewsTemplate({Pic, date, title, description}) {
 
 export default function ChurchNews() {
   return(
-    <section className="features">
+    <section className={"features " + styles.backgrounded}>
       <div className="container">
         <Heading as="h1">Tin Tức</Heading>
         <div className="row">

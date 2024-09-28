@@ -4,3 +4,7 @@
   height: 100px;
   width: 120px;
 }
+
+.backgrounded {
+  background: no-repeat center/100% url('/img/background_3.svg');
+}

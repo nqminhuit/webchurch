@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const GospelOfDay = [
   {
     title: 'Tin Mừng Chúa Giê-su Ki-tô theo thánh Lu-ca (Lc 2,1-14)',
-    Svg: require('@site/static/img/holy-bible-yesterday.svg').default,
+    Svg: require('@site/static/img/noun-holy-bible.svg').default,
     description: (
       <>
           Thời ấy, hoàng đế Au-gút-tô ra chiếu chỉ, truyền kiểm tra dân số trong khắp cả

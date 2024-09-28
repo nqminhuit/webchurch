@@ -5,16 +5,11 @@ const config = {
   title: 'Giáo xứ Hy Vọng',
   favicon: 'img/icons8-church-96.png',
 
-  // Set the production url of your site here
-  url: 'https://thanhduonghyvong.vn',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'nqminhuit', // Usually your GitHub org/user name.
-  projectName: 'nqminhuit', // Usually your repo name.
+  url: 'https://nqminhuit.github.io',
+  baseUrl: '/webchurch',
+  organizationName: 'nqminhuit',
+  projectName: 'webchurch',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

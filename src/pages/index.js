@@ -1,5 +1,6 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Gospel from '@site/src/components/Gospel';
+import ChurchNews from '@site/src/components/ChurchNews';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
@@ -23,6 +24,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <Gospel />
+        <ChurchNews />
       </main>
     </Layout>
   );

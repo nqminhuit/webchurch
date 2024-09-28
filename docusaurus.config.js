@@ -10,6 +10,7 @@ const config = {
   organizationName: 'nqminhuit',
   projectName: 'webchurch',
   deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

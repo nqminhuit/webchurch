@@ -6,13 +6,11 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
+        <Heading as="h1" className="hero__title">Lễ vọng Giáng Sinh</Heading>
+        Ngày 24 Tháng 12
       </div>
     </header>
   );

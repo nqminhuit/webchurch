@@ -5,3 +5,7 @@
 .backgrounded {
   background: no-repeat center/100% url('/img/background_1.svg');
 }
+
+.midnightblue {
+  color: midnightblue
+}

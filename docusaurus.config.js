@@ -74,15 +74,15 @@ const config = {
           {
             title: 'Giờ Thánh Lễ',
             items: [
-              {html: `Thứ Hai - Thứ Bảy: 05:00 | 18:00`},
-              {html: `Chúa Nhật: 05:30 | 07:30 |  17:00 | 18:30`},
+              {html: 'Thứ Hai - Thứ Bảy: 05:00 | 18:00'},
+              {html: 'Chúa Nhật: 05:30 | 07:30 |  17:00 | 18:30'},
             ],
           },
           {
             title: 'Liên Hệ',
             items: [
-              {html: `Địa chỉ: 69 Phan Huy Ích, P.15, Q. Tân Bình`},
-              {html: `Điện thoại: 3815 1700`},
+              {html: 'Địa chỉ: 69 Phan Huy Ích, P.15, Q. Tân Bình'},
+              {html: 'Điện thoại: 3815 1700'},
             ],
           },
         ],

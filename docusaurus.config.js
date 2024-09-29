@@ -50,6 +50,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'Giáo Xứ Hy Vọng',
         logo: {
@@ -58,7 +63,9 @@ const config = {
         },
         items: [
           {to: '/announcement', label: 'Thông báo', position: 'left'},
-          {to: '/about', label: 'About', position: 'left'},
+          {to: '/community', label: 'Cộng Đồng', position: 'left'},
+          {to: '/hymns', label: 'Thánh Ca', position: 'left'},
+          {to: '/about', label: 'About', position: 'right'},
         ],
       },
       footer: {

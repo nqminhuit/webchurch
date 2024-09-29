@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Giáo xứ Hy Vọng',
-  favicon: 'img/icons8-church-96.png',
+  favicon: 'img/icons8-church-100.png',
 
   url: 'https://nqminhuit.github.io',
   baseUrl: '/webchurch',

@@ -43,8 +43,8 @@ function GospelTemplate({Svg, title, description}) {
           <p className={styles.midnightblue}>{description}</p>
         </div>
       </div>
-      <div className={clsx('col col--4')}>
-        <img src="img/gospel-pic.jpg" alt="christmas" height="500"></img>
+      <div className={"text--center " + clsx('col col--4')}>
+        <img src="img/gospel-pic.jpg" alt="christmas" height="500" />
       </div>
     </>
   );
@@ -52,7 +52,7 @@ function GospelTemplate({Svg, title, description}) {
 
 export default function Gospel() {
   return (
-    <section className={"features " + styles.backgrounded}>
+    <section className="features">
       <div className="container">
         <div className="row">
           {GospelOfDay.map((props, idx) => (<GospelTemplate key={idx} {...props} />))}

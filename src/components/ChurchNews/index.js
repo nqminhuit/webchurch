@@ -26,7 +26,7 @@ function NewsTemplate({Pic, date, title, description}) {
   return (
     <div className="container hvrGrow">
       <Pic className={styles.featureSvg} role="img" />
-      <div className="">
+      <div>
         <Heading as="h4">{title}</Heading>
         {date} <br/>
         {description}
@@ -37,7 +37,7 @@ function NewsTemplate({Pic, date, title, description}) {
 
 export default function ChurchNews() {
   return(
-    <section className={"features " + styles.backgrounded}>
+    <section className="features">
       <div className="container">
         <Heading as="h1">Tin Tức</Heading>
         <div className="row">

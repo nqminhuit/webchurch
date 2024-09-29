@@ -31,6 +31,20 @@ header.hero.hero--primary {
   background: no-repeat center/100% url('/img/christmas-header.jpg');
 }
 
+@media screen and (max-width: 426px) {
+  header.hero.hero--primary div.container h1 {
+    font-size: 2rem;
+  }
+}
+
+body {
+  height: 100%;
+  background-image: url('/img/background_3.svg');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
 .features {
   display: flex;
   align-items: center;

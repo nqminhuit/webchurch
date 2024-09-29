@@ -1,9 +1,14 @@
 .featureSvg {
   float: left;
-  margin: 0px 0px 20px 0px;
-  height: 150px;
+  margin-bottom: 1rem;
+  height: 10rem;
 }
 
-.backgrounded {
-  background: no-repeat center/100% url('/img/background_2.svg');
+@media screen and (max-width: 426px) {
+  .featureSvg {
+    margin-bottom: 12rem;
+    margin-right: 1rem;
+    height: 5rem;
+    width: 5rem;
+  }
 }

@@ -79,6 +79,13 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'Site Logo',
+          src: 'img/icons8-church-100.png',
+          href: '/',
+          width: 82,
+          height: 72,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Ban Truyền Thông Giáo Xứ Hy Vọng.`,
       },
     }),

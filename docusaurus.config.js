@@ -51,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Giáo xứ',
+        title: 'Giáo Xứ Hy Vọng',
         logo: {
           alt: 'Site Logo',
           src: 'img/icons8-church-100.png',
@@ -63,6 +63,22 @@ const config = {
       },
       footer: {
         style: 'dark',
+        links: [
+          {
+            title: 'Giờ Thánh Lễ',
+            items: [
+              {html: `Thứ Hai - Thứ Bảy: 05:00 | 18:00`},
+              {html: `Chúa Nhật: 05:30 | 07:30 |  17:00 | 18:30`},
+            ],
+          },
+          {
+            title: 'Liên Hệ',
+            items: [
+              {html: `Địa chỉ: 69 Phan Huy Ích, P.15, Q. Tân Bình`},
+              {html: `Điện thoại: 3815 1700`},
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Ban Truyền Thông Giáo Xứ Hy Vọng.`,
       },
     }),
